@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var genderSwitch: UISegmentedControl!
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var heightTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
@@ -17,6 +16,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    @IBAction func genderChanged(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            view.backgroundColor = .systemCyan
+        }else{
+            view.backgroundColor = .systemPink
+        }
     }
     
     @IBAction func calculateBMI(_ sender: UIButton) {

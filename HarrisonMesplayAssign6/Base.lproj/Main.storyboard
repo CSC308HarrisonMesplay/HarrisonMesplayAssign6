@@ -286,6 +286,9 @@
                                             <segment title="Male"/>
                                             <segment title="Female"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="genderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="MwD-Qu-K45"/>
+                                        </connections>
                                     </segmentedControl>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="e14-Tf-6em">
                                         <rect key="frame" x="22.333333333333343" y="129" width="316.66666666666663" height="40"/>
@@ -355,7 +358,6 @@
                     <tabBarItem key="tabBarItem" title="" image="calculator" selectedImage="calculator" id="Au1-FN-HHW"/>
                     <connections>
                         <outlet property="bmiLabel" destination="n6f-Ty-Btg" id="Mbk-MZ-oWM"/>
-                        <outlet property="genderSwitch" destination="IY4-2Q-WRM" id="JD6-Bl-MTd"/>
                         <outlet property="heightTextField" destination="swe-o4-tRV" id="ZfR-0h-z87"/>
                         <outlet property="weightTextField" destination="xeZ-lz-xMb" id="1Vi-qs-XC7"/>
                     </connections>
