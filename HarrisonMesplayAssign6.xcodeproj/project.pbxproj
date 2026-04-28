@@ -6,27 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		25888A332FA029F900E01B18 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25888A322FA029F900E01B18 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		257143B92F97CBA10045D0A4 /* M10Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M10Bar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257143B92F97CBA10045D0A4 /* HarrisonMesplayAssign6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarrisonMesplayAssign6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25888A322FA029F900E01B18 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		257143CB2F97CBA20045D0A4 /* Exceptions for "M10Bar" folder in "M10Bar" target */ = {
+		257143CB2F97CBA20045D0A4 /* Exceptions for "HarrisonMesplayAssign6" folder in "HarrisonMesplayAssign6" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 257143B82F97CBA10045D0A4 /* M10Bar */;
+			target = 257143B82F97CBA10045D0A4 /* HarrisonMesplayAssign6 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		257143BB2F97CBA10045D0A4 /* M10Bar */ = {
+		257143BB2F97CBA10045D0A4 /* HarrisonMesplayAssign6 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				257143CB2F97CBA20045D0A4 /* Exceptions for "M10Bar" folder in "M10Bar" target */,
+				257143CB2F97CBA20045D0A4 /* Exceptions for "HarrisonMesplayAssign6" folder in "HarrisonMesplayAssign6" target */,
 			);
-			path = M10Bar;
+			path = HarrisonMesplayAssign6;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25888A332FA029F900E01B18 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +51,8 @@
 		257143B02F97CBA10045D0A4 = {
 			isa = PBXGroup;
 			children = (
-				257143BB2F97CBA10045D0A4 /* M10Bar */,
+				257143BB2F97CBA10045D0A4 /* HarrisonMesplayAssign6 */,
+				25888A312FA029ED00E01B18 /* Frameworks */,
 				257143BA2F97CBA10045D0A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,17 +60,25 @@
 		257143BA2F97CBA10045D0A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				257143B92F97CBA10045D0A4 /* M10Bar.app */,
+				257143B92F97CBA10045D0A4 /* HarrisonMesplayAssign6.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		25888A312FA029ED00E01B18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25888A322FA029F900E01B18 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		257143B82F97CBA10045D0A4 /* M10Bar */ = {
+		257143B82F97CBA10045D0A4 /* HarrisonMesplayAssign6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 257143CC2F97CBA20045D0A4 /* Build configuration list for PBXNativeTarget "M10Bar" */;
+			buildConfigurationList = 257143CC2F97CBA20045D0A4 /* Build configuration list for PBXNativeTarget "HarrisonMesplayAssign6" */;
 			buildPhases = (
 				257143B52F97CBA10045D0A4 /* Sources */,
 				257143B62F97CBA10045D0A4 /* Frameworks */,
@@ -74,13 +89,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				257143BB2F97CBA10045D0A4 /* M10Bar */,
+				257143BB2F97CBA10045D0A4 /* HarrisonMesplayAssign6 */,
 			);
-			name = M10Bar;
+			name = HarrisonMesplayAssign6;
 			packageProductDependencies = (
 			);
 			productName = M10Bar;
-			productReference = 257143B92F97CBA10045D0A4 /* M10Bar.app */;
+			productReference = 257143B92F97CBA10045D0A4 /* HarrisonMesplayAssign6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 257143B42F97CBA10045D0A4 /* Build configuration list for PBXProject "M10Bar" */;
+			buildConfigurationList = 257143B42F97CBA10045D0A4 /* Build configuration list for PBXProject "HarrisonMesplayAssign6" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				257143B82F97CBA10045D0A4 /* M10Bar */,
+				257143B82F97CBA10045D0A4 /* HarrisonMesplayAssign6 */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +161,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = M10Bar/Info.plist;
+				INFOPLIST_FILE = HarrisonMesplayAssign6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +188,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = M10Bar/Info.plist;
+				INFOPLIST_FILE = HarrisonMesplayAssign6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		257143B42F97CBA10045D0A4 /* Build configuration list for PBXProject "M10Bar" */ = {
+		257143B42F97CBA10045D0A4 /* Build configuration list for PBXProject "HarrisonMesplayAssign6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				257143CF2F97CBA20045D0A4 /* Debug */,
@@ -323,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		257143CC2F97CBA20045D0A4 /* Build configuration list for PBXNativeTarget "M10Bar" */ = {
+		257143CC2F97CBA20045D0A4 /* Build configuration list for PBXNativeTarget "HarrisonMesplayAssign6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				257143CD2F97CBA20045D0A4 /* Debug */,
